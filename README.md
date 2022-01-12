@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Expense tracker React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is meant to be a full MERN Application using the MERN stack, using Context API, Express and MongoDB (As backend)
 
 ## Available Scripts
 
