@@ -13,6 +13,8 @@ const transactions = require('./routes/transactions');
 
 const app = express(); //initialize express app
 
+app.use(express.json()); // so i can use "body.parsec"
+
 app.use('/api/v1/transactions', transactions);
 
 const PORT = process.env.PORT || 5000;
