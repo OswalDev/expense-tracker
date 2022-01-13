@@ -7,14 +7,6 @@ export const AddTransaction = () => {
 
     const { addTransaction } = useContext(GlobalContext);
 
-    const onHandleSubmit = e => {
-      // e.preventDefault();
-      this.setState({
-        setText: '',
-        setAmount: 0
-      });
-    }
-
     const onSubmit = e => {
     e.preventDefault();
 
@@ -42,7 +34,7 @@ export const AddTransaction = () => {
             >
             <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
           </div>
-          <button onClick={() => onHandleSubmit()} className="btn">Add transaction</button>
+          <button className="btn">Add transaction</button>
         </form>
       </>
     )
