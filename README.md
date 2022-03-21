@@ -9,7 +9,14 @@ This project is meant to be a full MERN Application using the MERN stack, using 
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start`
+This commando will run the client
+
+### `npm run server`
+This commando will run the server
+
+## `npm run dev`
+This commando will the full project(front and backend)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
