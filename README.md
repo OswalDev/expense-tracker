@@ -2,6 +2,9 @@
 
 This project is meant to be a full MERN Application using the MERN stack, using Context API, Express and MongoDB (As backend)
 
+## App review
+<img src="client/public/expenseTracker2"
+
 ## Available Scripts
 
 In the project directory, you can run:
