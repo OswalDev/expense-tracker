@@ -16,7 +16,7 @@ This commando will run the client
 This commando will run the server
 
 ## `npm run dev`
-This commando will the full project(front and backend)
+This commando will run the full project(front and backend)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
